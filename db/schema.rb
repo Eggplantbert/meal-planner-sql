@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_03_22_190956) do
     t.string "name"
     t.integer "amount"
     t.string "uom"
-    t.bigint "recipe_id", null: false
+    t.bigint "recipe_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["recipe_id"], name: "index_ingredients_on_recipe_id"
