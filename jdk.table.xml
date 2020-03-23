@@ -1,0 +1,628 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="ruby-2.3.3-p222" />
+      <type value="RUBY_SDK" />
+      <version value="ver.2.3.3p222 ( revision 56859) p222" />
+      <homePath value="C:/RailsInstaller/Ruby2.3.3/bin/ruby.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0/i386-msvcrt" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0/i386-msvcrt" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs23" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0/i386-msvcrt" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0/i386-msvcrt" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0" type="simple" />
+            <root url="file://C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs23" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.2.3.3p222 ( revision 56859) p222" PLATFORM="i386-mingw32" version="1" GEMS_BIN_DIR_PATH="C:/RailsInstaller/Ruby2.3.3/bin">
+        <VERSION_MANAGER ID="system" />
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="gcc" />
+          <item key="CC_VERSION" value="gcc -v" />
+          <item key="CFLAGS" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="CHDIR" value="cd" />
+          <item key="COMMON_HEADERS" value="winsock2.h windows.h" />
+          <item key="COMMON_LIBS" value="m" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="gcc -E" />
+          <item key="CPPFLAGS" value="-DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64 " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="g++" />
+          <item key="CXXFLAGS" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="DEFS" value="-D_FILE_OFFSET_BITS=64" />
+          <item key="DESTDIR" value="C:" />
+          <item key="DLDFLAGS" value=" -Wl,--enable-auto-image-base,--enable-auto-import $(DEFFILE)" />
+          <item key="DLEXT" value="so" />
+          <item key="DLLWRAP" value="dllwrap" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_N" value="-n" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXECUTABLE_EXTS" value=".exe .com .cmd .bat" />
+          <item key="EXEEXT" value=".exe" />
+          <item key="EXPORT_PREFIX" value=" " />
+          <item key="EXTLDFLAGS" value="-static-libgcc" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GNU_LD" value="yes" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. " />
+          <item key="LDSHARED" value="gcc -shared $(if $(filter-out -g -g0,-g),,-s)" />
+          <item key="LDSHAREDXX" value="g++ -shared $(if $(filter-out -g -g0,-g),,-s)" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libmsvcrt-ruby230.dll.a" />
+          <item key="LIBRUBYARG" value="-lmsvcrt-ruby230" />
+          <item key="LIBRUBYARG_SHARED" value="-lmsvcrt-ruby230" />
+          <item key="LIBRUBYARG_STATIC" value="-lmsvcrt-ruby230-static" />
+          <item key="LIBRUBY_A" value="libmsvcrt-ruby230-static.a" />
+          <item key="LIBRUBY_RELATIVE" value="yes" />
+          <item key="LIBRUBY_SO" value="msvcrt-ruby230.dll" />
+          <item key="LIBS" value="-lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="LN_S" value="cp -pR" />
+          <item key="MAJOR" value="2" />
+          <item key="MAKEDIRS" value="/usr/bin/mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="man" />
+          <item key="MINOR" value="3" />
+          <item key="MKDIR_P" value="/usr/bin/mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NROFF" value="/bin/false" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="222" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PLATFORM_DIR" value="win32" />
+          <item key="POSTLINK" value=":" />
+          <item key="PREP" value="miniruby.exe" />
+          <item key="PYTHON" value="C:\\Python\\Python27" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir --ignore-fail-on-non-empty" />
+          <item key="RMDIRS" value="rmdir --ignore-fail-on-non-empty -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBYW_INSTALL_NAME" value="rubyw" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="2.3.3" />
+          <item key="RUBY_SO_NAME" value="msvcrt-ruby230" />
+          <item key="RUBY_VERSION_NAME" value="ruby-2.3.0" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOLIBS" value="-lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="STRIP" value="strip" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="0" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="win32" />
+          <item key="USE_RUBYGEMS" value="YES" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="WINDRES" value="windres" />
+          <item key="arch" value="i386-mingw32" />
+          <item key="archdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="archincludedir" value="C:/RailsInstaller/Ruby2.3.3/include/i386-mingw32" />
+          <item key="archlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/i386-mingw32" />
+          <item key="bindir" value="C:/RailsInstaller/Ruby2.3.3/bin" />
+          <item key="build" value="i686-pc-mingw32" />
+          <item key="build_cpu" value="i686" />
+          <item key="build_os" value="mingw32" />
+          <item key="build_vendor" value="pc" />
+          <item key="cflags" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="configure_args" value=" '--enable-shared' '--disable-install-doc' 'debugflags=-g' 'CPPFLAGS=-DFD_SETSIZE=2048' '--prefix=' 'LDFLAGS='" />
+          <item key="cxxflags" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="datadir" value="C:/RailsInstaller/Ruby2.3.3/share" />
+          <item key="datarootdir" value="C:/RailsInstaller/Ruby2.3.3/share" />
+          <item key="debugflags" value="-g" />
+          <item key="docdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="dvidir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="C:/RailsInstaller/Ruby2.3.3" />
+          <item key="host" value="i686-pc-mingw32" />
+          <item key="host_cpu" value="i686" />
+          <item key="host_os" value="mingw32" />
+          <item key="host_vendor" value="pc" />
+          <item key="htmldir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="includedir" value="C:/RailsInstaller/Ruby2.3.3/include" />
+          <item key="infodir" value="C:/RailsInstaller/Ruby2.3.3/share/info" />
+          <item key="libdir" value="C:/RailsInstaller/Ruby2.3.3/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="C:/RailsInstaller/Ruby2.3.3/libexec" />
+          <item key="localedir" value="C:/RailsInstaller/Ruby2.3.3/share/locale" />
+          <item key="localstatedir" value="C:/RailsInstaller/Ruby2.3.3/var" />
+          <item key="mandir" value="C:/RailsInstaller/Ruby2.3.3/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-omit-frame-pointer -fno-fast-math" />
+          <item key="pdfdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="prefix" value="C:/RailsInstaller/Ruby2.3.3" />
+          <item key="psdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="ridir" value="C:/RailsInstaller/Ruby2.3.3/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-2.3.pc" />
+          <item key="ruby_version" value="2.3.0" />
+          <item key="rubyarchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="rubyarchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/i386-mingw32" />
+          <item key="rubyarchprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/i386-mingw32" />
+          <item key="rubyhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0" />
+          <item key="rubylibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0" />
+          <item key="rubylibprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby" />
+          <item key="rubysitearchprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/i386-msvcrt" />
+          <item key="rubyw_install_name" value="rubyw" />
+          <item key="sbindir" value="C:/RailsInstaller/Ruby2.3.3/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="C:/RailsInstaller/Ruby2.3.3/com" />
+          <item key="sitearch" value="i386-msvcrt" />
+          <item key="sitearchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0/i386-msvcrt" />
+          <item key="sitearchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/site_ruby/i386-msvcrt" />
+          <item key="sitearchincludedir" value="C:/RailsInstaller/Ruby2.3.3/include/i386-msvcrt" />
+          <item key="sitearchlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/i386-msvcrt" />
+          <item key="sitedir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/site_ruby" />
+          <item key="sitelibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0" />
+          <item key="sysconfdir" value="C:/RailsInstaller/Ruby2.3.3/etc" />
+          <item key="target" value="i386-pc-mingw32" />
+          <item key="target_cpu" value="i386" />
+          <item key="target_os" value="mingw32" />
+          <item key="target_vendor" value="pc" />
+          <item key="topdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="vendorarchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0/i386-msvcrt" />
+          <item key="vendorarchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/vendor_ruby/i386-msvcrt" />
+          <item key="vendordir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/vendor_ruby" />
+          <item key="vendorlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+        </RbConfig>
+      </additional>
+    </jdk>
+    <jdk version="2">
+      <name value="ruby-2.3.3-p222 (2)" />
+      <type value="RUBY_SDK" />
+      <version value="ver.2.3.3p0" />
+      <homePath value="C:/RailsInstaller/Ruby2.3.3/bin/rubyw.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs23" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.2.3.3p0" PLATFORM="i386-mingw32" version="1" GEMS_BIN_DIR_PATH="C:/RailsInstaller/Ruby2.3.3/bin">
+        <VERSION_MANAGER ID="system" />
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="gcc" />
+          <item key="CC_VERSION" value="gcc -v" />
+          <item key="CFLAGS" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="CHDIR" value="cd" />
+          <item key="COMMON_HEADERS" value="winsock2.h windows.h" />
+          <item key="COMMON_LIBS" value="m" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="gcc -E" />
+          <item key="CPPFLAGS" value="-DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0501 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64 " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="g++" />
+          <item key="CXXFLAGS" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="DEFS" value="-D_FILE_OFFSET_BITS=64" />
+          <item key="DESTDIR" value="C:" />
+          <item key="DLDFLAGS" value=" -Wl,--enable-auto-image-base,--enable-auto-import $(DEFFILE)" />
+          <item key="DLEXT" value="so" />
+          <item key="DLLWRAP" value="dllwrap" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_N" value="-n" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXECUTABLE_EXTS" value=".exe .com .cmd .bat" />
+          <item key="EXEEXT" value=".exe" />
+          <item key="EXPORT_PREFIX" value=" " />
+          <item key="EXTLDFLAGS" value="-static-libgcc" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GNU_LD" value="yes" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. " />
+          <item key="LDSHARED" value="gcc -shared $(if $(filter-out -g -g0,-g),,-s)" />
+          <item key="LDSHAREDXX" value="g++ -shared $(if $(filter-out -g -g0,-g),,-s)" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libmsvcrt-ruby230.dll.a" />
+          <item key="LIBRUBYARG" value="-lmsvcrt-ruby230" />
+          <item key="LIBRUBYARG_SHARED" value="-lmsvcrt-ruby230" />
+          <item key="LIBRUBYARG_STATIC" value="-lmsvcrt-ruby230-static" />
+          <item key="LIBRUBY_A" value="libmsvcrt-ruby230-static.a" />
+          <item key="LIBRUBY_RELATIVE" value="yes" />
+          <item key="LIBRUBY_SO" value="msvcrt-ruby230.dll" />
+          <item key="LIBS" value="-lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="LN_S" value="cp -pR" />
+          <item key="MAJOR" value="2" />
+          <item key="MAKEDIRS" value="/usr/bin/mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="man" />
+          <item key="MINOR" value="3" />
+          <item key="MKDIR_P" value="/usr/bin/mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NROFF" value="/bin/false" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="222" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PLATFORM_DIR" value="win32" />
+          <item key="POSTLINK" value=":" />
+          <item key="PREP" value="miniruby.exe" />
+          <item key="PYTHON" value="C:\\Python\\Python27" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir --ignore-fail-on-non-empty" />
+          <item key="RMDIRS" value="rmdir --ignore-fail-on-non-empty -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBYW_INSTALL_NAME" value="rubyw" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="2.3.3" />
+          <item key="RUBY_SO_NAME" value="msvcrt-ruby230" />
+          <item key="RUBY_VERSION_NAME" value="ruby-2.3.0" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOLIBS" value="-lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="STRIP" value="strip" />
+          <item key="SYMBOL_PREFIX" value="_" />
+          <item key="TEENY" value="0" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="win32" />
+          <item key="USE_RUBYGEMS" value="YES" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="WINDRES" value="windres" />
+          <item key="arch" value="i386-mingw32" />
+          <item key="archdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="archincludedir" value="C:/RailsInstaller/Ruby2.3.3/include/i386-mingw32" />
+          <item key="archlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/i386-mingw32" />
+          <item key="bindir" value="C:/RailsInstaller/Ruby2.3.3/bin" />
+          <item key="build" value="i686-pc-mingw32" />
+          <item key="build_cpu" value="i686" />
+          <item key="build_os" value="mingw32" />
+          <item key="build_vendor" value="pc" />
+          <item key="cflags" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="configure_args" value=" '--enable-shared' '--disable-install-doc' 'debugflags=-g' 'CPPFLAGS=-DFD_SETSIZE=2048' '--prefix=' 'LDFLAGS='" />
+          <item key="cxxflags" value=" -O3 -fno-omit-frame-pointer -fno-fast-math -g -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+          <item key="datadir" value="C:/RailsInstaller/Ruby2.3.3/share" />
+          <item key="datarootdir" value="C:/RailsInstaller/Ruby2.3.3/share" />
+          <item key="debugflags" value="-g" />
+          <item key="docdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="dvidir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="C:/RailsInstaller/Ruby2.3.3" />
+          <item key="host" value="i686-pc-mingw32" />
+          <item key="host_cpu" value="i686" />
+          <item key="host_os" value="mingw32" />
+          <item key="host_vendor" value="pc" />
+          <item key="htmldir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="includedir" value="C:/RailsInstaller/Ruby2.3.3/include" />
+          <item key="infodir" value="C:/RailsInstaller/Ruby2.3.3/share/info" />
+          <item key="libdir" value="C:/RailsInstaller/Ruby2.3.3/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="C:/RailsInstaller/Ruby2.3.3/libexec" />
+          <item key="localedir" value="C:/RailsInstaller/Ruby2.3.3/share/locale" />
+          <item key="localstatedir" value="C:/RailsInstaller/Ruby2.3.3/var" />
+          <item key="mandir" value="C:/RailsInstaller/Ruby2.3.3/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-omit-frame-pointer -fno-fast-math" />
+          <item key="pdfdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="prefix" value="C:/RailsInstaller/Ruby2.3.3" />
+          <item key="psdir" value="C:/RailsInstaller/Ruby2.3.3/share/doc/ruby" />
+          <item key="ridir" value="C:/RailsInstaller/Ruby2.3.3/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-2.3.pc" />
+          <item key="ruby_version" value="2.3.0" />
+          <item key="rubyarchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="rubyarchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/i386-mingw32" />
+          <item key="rubyarchprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/i386-mingw32" />
+          <item key="rubyhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0" />
+          <item key="rubylibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0" />
+          <item key="rubylibprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby" />
+          <item key="rubysitearchprefix" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/i386-msvcrt" />
+          <item key="rubyw_install_name" value="rubyw" />
+          <item key="sbindir" value="C:/RailsInstaller/Ruby2.3.3/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="C:/RailsInstaller/Ruby2.3.3/com" />
+          <item key="sitearch" value="i386-msvcrt" />
+          <item key="sitearchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0/i386-msvcrt" />
+          <item key="sitearchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/site_ruby/i386-msvcrt" />
+          <item key="sitearchincludedir" value="C:/RailsInstaller/Ruby2.3.3/include/i386-msvcrt" />
+          <item key="sitearchlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/i386-msvcrt" />
+          <item key="sitedir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/site_ruby" />
+          <item key="sitelibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/site_ruby/2.3.0" />
+          <item key="sysconfdir" value="C:/RailsInstaller/Ruby2.3.3/etc" />
+          <item key="target" value="i386-pc-mingw32" />
+          <item key="target_cpu" value="i386" />
+          <item key="target_os" value="mingw32" />
+          <item key="target_vendor" value="pc" />
+          <item key="topdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/2.3.0/i386-mingw32" />
+          <item key="vendorarchdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0/i386-msvcrt" />
+          <item key="vendorarchhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/vendor_ruby/i386-msvcrt" />
+          <item key="vendordir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="C:/RailsInstaller/Ruby2.3.3/include/ruby-2.3.0/vendor_ruby" />
+          <item key="vendorlibdir" value="C:/RailsInstaller/Ruby2.3.3/lib/ruby/vendor_ruby/2.3.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat" />
+        </RbConfig>
+      </additional>
+    </jdk>
+    <jdk version="2">
+      <name value="ruby-2.6.5-p114" />
+      <type value="RUBY_SDK" />
+      <version value="ver.2.6.5p114 ( revision 67812) p114" />
+      <homePath value="C:/Ruby26-x64/bin/ruby.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/site_ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/site_ruby" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0/x64-msvcrt" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://C:/Ruby26-x64/lib/ruby/site_ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/site_ruby" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0/x64-msvcrt" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/2.6.0" type="simple" />
+            <root url="file://C:/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs26" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.2.6.5p114 ( revision 67812) p114" PLATFORM="x64-mingw32" version="1" GEMS_BIN_DIR_PATH="C:/Ruby26-x64/bin">
+        <VERSION_MANAGER ID="system" />
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARFLAGS" value="rcD " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="x86_64-w64-mingw32-gcc" />
+          <item key="CC_VERSION" value="x86_64-w64-mingw32-gcc --version" />
+          <item key="CC_VERSION_MESSAGE" value="x86_64-w64-mingw32-gcc.exe (Rev2, Built by MSYS2 project) 9.2.0&#10;Copyright (C) 2019 Free Software Foundation, Inc.&#10;This is free software; see the source for copying conditions.  There is NO&#10;warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE." />
+          <item key="CFLAGS" value="-O3 -fno-fast-math" />
+          <item key="CHDIR" value="cd" />
+          <item key="COMMON_HEADERS" value="winsock2.h windows.h" />
+          <item key="COMMON_LIBS" value="m" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="x86_64-w64-mingw32-gcc -E" />
+          <item key="CPPFLAGS" value="-D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64 " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="x86_64-w64-mingw32-g++" />
+          <item key="CXXFLAGS" value="-march=x86-64 -mtune=generic -O2 -pipe" />
+          <item key="DEFS" value="-D_FILE_OFFSET_BITS=64" />
+          <item key="DESTDIR" value="C:" />
+          <item key="DLDFLAGS" value="-pipe -s -Wl,--enable-auto-image-base,--enable-auto-import $(DEFFILE)" />
+          <item key="DLDSHARED" value="x86_64-w64-mingw32-gcc -shared" />
+          <item key="DLEXT" value="so" />
+          <item key="DLLWRAP" value="dllwrap" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_N" value="-n" />
+          <item key="EGREP" value="/usr/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXECUTABLE_EXTS" value=".exe .com .cmd .bat" />
+          <item key="EXEEXT" value=".exe" />
+          <item key="EXPORT_PREFIX" value=" " />
+          <item key="EXTLDFLAGS" value="-static-libgcc" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="yes" />
+          <item key="GREP" value="/usr/bin/grep" />
+          <item key="HAVE_GIT" value="yes" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. -pipe -s" />
+          <item key="LDSHARED" value="x86_64-w64-mingw32-gcc -shared" />
+          <item key="LDSHAREDXX" value="x86_64-w64-mingw32-g++ -shared" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libx64-msvcrt-ruby260.dll.a" />
+          <item key="LIBRUBYARG" value="-lx64-msvcrt-ruby260" />
+          <item key="LIBRUBYARG_SHARED" value="-lx64-msvcrt-ruby260" />
+          <item key="LIBRUBYARG_STATIC" value="-lx64-msvcrt-ruby260-static -lgmp -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="LIBRUBY_A" value="libx64-msvcrt-ruby260-static.a" />
+          <item key="LIBRUBY_RELATIVE" value="yes" />
+          <item key="LIBRUBY_SO" value="x64-msvcrt-ruby260.dll" />
+          <item key="LIBRUBY_SONAME" value="libx64-msvcrt-ruby260.dll.2.6" />
+          <item key="LIBS" value="-lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="LN_S" value="cp -pR" />
+          <item key="MAINLIBS" value="-lgmp -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="MAJOR" value="2" />
+          <item key="MAKEDIRS" value="/usr/bin/mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MATHN" value="yes" />
+          <item key="MINOR" value="6" />
+          <item key="MJIT_SUPPORT" value="yes" />
+          <item key="MKDIR_P" value="/usr/bin/mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="114" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="PKG_CONFIG" value="pkg-config" />
+          <item key="PLATFORM_DIR" value="win32" />
+          <item key="POSTLINK" value=":" />
+          <item key="PREP" value="miniruby.exe" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir --ignore-fail-on-non-empty" />
+          <item key="RMDIRS" value="rmdir --ignore-fail-on-non-empty -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBYW_INSTALL_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="2.6" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_INSTALL_NAME" value="ruby" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="2.6.5" />
+          <item key="RUBY_SO_NAME" value="x64-msvcrt-ruby260" />
+          <item key="RUBY_VERSION_NAME" value="ruby-2.6.0" />
+          <item key="SHELL" value="/bin/sh" />
+          <item key="SOEXT" value="dll" />
+          <item key="SOLIBS" value="-lgmp -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi " />
+          <item key="STRIP" value="strip" />
+          <item key="TEENY" value="5" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="win32" />
+          <item key="UNICODE_EMOJI_VERSION" value="12.0" />
+          <item key="UNICODE_VERSION" value="12.1.0" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="WINDRES" value="windres" />
+          <item key="arch" value="x64-mingw32" />
+          <item key="archdir" value="C:/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32" />
+          <item key="archincludedir" value="C:/Ruby26-x64/include/x64-mingw32" />
+          <item key="archlibdir" value="C:/Ruby26-x64/lib/x64-mingw32" />
+          <item key="bindir" value="C:/Ruby26-x64/bin" />
+          <item key="build" value="x86_64-w64-mingw32" />
+          <item key="build_alias" value="x86_64-w64-mingw32" />
+          <item key="build_cpu" value="x86_64" />
+          <item key="build_os" value="mingw32" />
+          <item key="build_vendor" value="w64" />
+          <item key="cflags" value="-O3 -fno-omit-frame-pointer -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable" />
+          <item key="configure_args" value=" '--prefix=/mingw64' '--build=x86_64-w64-mingw32' '--host=x86_64-w64-mingw32' '--target=x86_64-w64-mingw32' '--without-ext=pty,syslog' 'build_alias=x86_64-w64-mingw32' 'host_alias=x86_64-w64-mingw32' 'target_alias=x86_64-w64-mingw32' 'CFLAGS=-O3 -fno-fast-math' 'LDFLAGS=-pipe -s' 'CPPFLAGS=-D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048' 'CXXFLAGS=-march=x86-64 -mtune=generic -O2 -pipe'" />
+          <item key="cxxflags" value="-O3 -fno-omit-frame-pointer -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable" />
+          <item key="datadir" value="C:/Ruby26-x64/share" />
+          <item key="datarootdir" value="C:/Ruby26-x64/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="C:/Ruby26-x64/share/doc/ruby" />
+          <item key="dvidir" value="C:/Ruby26-x64/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="C:/Ruby26-x64" />
+          <item key="host" value="x86_64-w64-mingw32" />
+          <item key="host_alias" value="x86_64-w64-mingw32" />
+          <item key="host_cpu" value="x86_64" />
+          <item key="host_os" value="mingw32" />
+          <item key="host_vendor" value="w64" />
+          <item key="htmldir" value="C:/Ruby26-x64/share/doc/ruby" />
+          <item key="includedir" value="C:/Ruby26-x64/include" />
+          <item key="infodir" value="C:/Ruby26-x64/share/info" />
+          <item key="libdir" value="C:/Ruby26-x64/lib" />
+          <item key="libdirname" value="libdir" />
+          <item key="libexecdir" value="C:/Ruby26-x64/libexec" />
+          <item key="localedir" value="C:/Ruby26-x64/share/locale" />
+          <item key="localstatedir" value="C:/Ruby26-x64/var" />
+          <item key="mandir" value="C:/Ruby26-x64/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3 -fno-omit-frame-pointer" />
+          <item key="pdfdir" value="C:/Ruby26-x64/share/doc/ruby" />
+          <item key="prefix" value="C:/Ruby26-x64" />
+          <item key="psdir" value="C:/Ruby26-x64/share/doc/ruby" />
+          <item key="ridir" value="C:/Ruby26-x64/share/ri" />
+          <item key="ruby_install_name" value="ruby" />
+          <item key="ruby_pc" value="ruby-2.6.pc" />
+          <item key="ruby_version" value="2.6.0" />
+          <item key="rubyarchdir" value="C:/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32" />
+          <item key="rubyarchhdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0/x64-mingw32" />
+          <item key="rubyarchprefix" value="C:/Ruby26-x64/lib/ruby/x64-mingw32" />
+          <item key="rubyhdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0" />
+          <item key="rubylibdir" value="C:/Ruby26-x64/lib/ruby/2.6.0" />
+          <item key="rubylibprefix" value="C:/Ruby26-x64/lib/ruby" />
+          <item key="rubysitearchprefix" value="C:/Ruby26-x64/lib/ruby/x64-msvcrt" />
+          <item key="rubyw_install_name" value="rubyw" />
+          <item key="sbindir" value="C:/Ruby26-x64/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="C:/Ruby26-x64/com" />
+          <item key="sitearch" value="x64-msvcrt" />
+          <item key="sitearchdir" value="C:/Ruby26-x64/lib/ruby/site_ruby/2.6.0/x64-msvcrt" />
+          <item key="sitearchhdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0/site_ruby/x64-msvcrt" />
+          <item key="sitearchincludedir" value="C:/Ruby26-x64/include/x64-msvcrt" />
+          <item key="sitearchlibdir" value="C:/Ruby26-x64/lib/x64-msvcrt" />
+          <item key="sitedir" value="C:/Ruby26-x64/lib/ruby/site_ruby" />
+          <item key="sitehdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0/site_ruby" />
+          <item key="sitelibdir" value="C:/Ruby26-x64/lib/ruby/site_ruby/2.6.0" />
+          <item key="target" value="x86_64-w64-mingw32" />
+          <item key="target_alias" value="x86_64-w64-mingw32" />
+          <item key="target_cpu" value="x64" />
+          <item key="target_os" value="mingw32" />
+          <item key="target_vendor" value="w64" />
+          <item key="topdir" value="C:/Ruby26-x64/lib/ruby/2.6.0/x64-mingw32" />
+          <item key="vendorarchdir" value="C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0/x64-msvcrt" />
+          <item key="vendorarchhdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0/vendor_ruby/x64-msvcrt" />
+          <item key="vendordir" value="C:/Ruby26-x64/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="C:/Ruby26-x64/include/ruby-2.6.0/vendor_ruby" />
+          <item key="vendorlibdir" value="C:/Ruby26-x64/lib/ruby/vendor_ruby/2.6.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable" />
+        </RbConfig>
+      </additional>
+    </jdk>
+  </component>
+</application>
