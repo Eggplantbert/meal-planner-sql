@@ -1,0 +1,39 @@
+<p>
+  <strong> Title: </strong>
+  <%= @recipe.title %>
+</p>
+
+<p>
+  <strong>Author: </strong>
+  <%= @recipe.author %>
+</p>
+
+<p>
+  <strong> Note: </strong>
+  <%= @recipe.note  %>
+</p>
+
+
+<table>
+  <h2>Ingredients</h2>
+  <tr>
+  <th>Name</th>
+  <th>Amount</th>
+  <th>UOM</th>
+  </tr>
+
+<% @recipe.ingredients.each do |ingredient| %>
+    <tr>
+      <td><%= ingredient.name %></td>
+      <td><%= ingredient.amount  %></td>
+      <td><%= ingredient.uom %></td>
+    </tr>
+
+<% end %>
+
+</table>
+
+</br>
+
+<%= link_to 'Edit', edit_recipe_path(@recipe) %>
+<%= link_to 'Back', recipes_path %>
