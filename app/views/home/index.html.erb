@@ -1,2 +1,12 @@
-<h1> Welcome to the Meal Planner</h1>
-<%= link_to 'See Recipes', controller: 'recipes' %>
+<div id = "page-container">
+  <div class = 'header'>
+    <h2> Meal Planner</h2>
+  </div>
+  <div id = "content-wrap">
+    </br>
+    <%= link_to '<button type="button">See Recipes </button>'.html_safe, controller: 'recipes' %>
+    </br>
+  </div>
+  <footer id = "footer">Team Eggplantbert: Alex Eby, Tristin Colenso, Ethan Large, Roman Formicola</footer>
+</div>
+

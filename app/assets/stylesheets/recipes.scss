@@ -6,3 +6,39 @@ th, td {
   padding: 10px;
   text-align: left;
 }
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 20px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+  font-family: "Arial Narrow";
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  padding-left: 20px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 15px;
+  font-family: "Arial Narrow";
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}

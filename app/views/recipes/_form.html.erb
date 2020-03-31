@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/form.css">
+
 <%= form_for(@recipe) do |form| %>
   <% if @recipe.errors.any? %>
     <div id = "error_explanation">
@@ -46,24 +48,7 @@
 
     <% end %>
 
-  <h2>Add an Ingredient: </h2>
-  <%= form.fields_for :ingredients do |new| %>
-    <p>
-      <%= new.label :name %><br>
-      <%= new.text_field :name %>
-    </p>
-    <p>
-      <%= new.label :amount %><br>
-      <%= new.number_field :amount %>
-    </p>
-    <p>
-      <%= new.label :uom %><br>
-      <%= new.text_field :uom %>
-    </p>
-    <p>
-      <%= new.submit %>
-    </p>
-  <% end %>
+    <%= render 'ingform' %>
 
   <p>
     <%= form.submit %>
