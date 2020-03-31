@@ -1,57 +1,41 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/form.css">
 
-<%= form_for(@recipe) do |form| %>
-  <% if @recipe.errors.any? %>
-    <div id = "error_explanation">
-      <h2>
-        <%= pluralize(@recipe.errors.count, "error") %>
-        prohibited this recipe from being saved:
-      </h2>
-      <ul>
-        <%@recipe.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <p>
-    <%= form.label :title  %><br>
-    <%= form.text_field :title %>
-  </p>
-
-  <p>
-    <%= form.label :author  %><br>
-    <%= form.text_field :author %>
-  </p>
-
-  <p>
-    <%= form.label :note %><br>
-    <%= form.text_area :note %>
-  </p>
-
-  <table>
-    <tr>
-      <th> Name </th>
-      <th> Amount </th>
-      <th> UOM </th>
-    </tr>
-
-    <% @recipe.ingredients.each do |ingredient| %>
-      <tr>
-        <td><%= ingredient.name %></td>
-        <td><%= ingredient.amount  %></td>
-        <td><%= ingredient.uom %></td>
-      </tr>
-
-      </table>
-
+<div id = "form">
+  <%= form_for(@recipe) do |form| %>
+    <% if @recipe.errors.any? %>
+      <div id = "error_explanation">
+        <h2>
+          <%= pluralize(@recipe.errors.count, "error") %>
+          prohibited this recipe from being saved:
+        </h2>
+        <ul>
+          <%@recipe.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
     <% end %>
 
-    <%= render 'ingform' %>
+    <p>
+      <%= form.label :title  %><br>
+      <%= form.text_field :title %>
+    </p>
 
-  <p>
-    <%= form.submit %>
-  </p>
+    <p>
+      <%= form.label :author  %><br>
+      <%= form.text_field :author %>
+    </p>
 
-<% end %>
+    <p>
+      <%= form.label :note %><br>
+      <%= form.text_area :note %>
+    </p>
+
+      <%= render 'ingform' %>
+
+      <p>
+        <%= form.submit %>
+      </p>
+
+  <% end %>
+</div>

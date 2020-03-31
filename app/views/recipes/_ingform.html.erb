@@ -1,20 +1,21 @@
+<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/ingform.css">
 <%= form_for(@recipe) do |form| %>
   <h2>Add an Ingredient: </h2>
   <%= form.fields_for :ingredients do |new| %>
-    <p>
-      <%= new.label :name %><br>
+    <p class = "input_field">
+      <%= new.label :name, "name" %><br>
       <%= new.text_field :name %>
     </p>
-    <p>
-      <%= new.label :amount %><br>
+    <p class = "input_field">
+      <%= new.label :amount, "amount" %><br>
       <%= new.number_field :amount %>
     </p>
-    <p>
-      <%= new.label :uom %><br>
+    <p class = "input_field">
+      <%= new.label :uom, "UOM" %><br>
       <%= new.text_field :uom %>
     </p>
-    <p>
+    <p class = "input_field">
       <%= new.submit %>
-    </p>
+    </p> </br>
   <% end %>
 <% end  %>

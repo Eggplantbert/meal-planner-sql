@@ -1,39 +1,44 @@
-<p>
-  <strong> Title: </strong>
-  <%= @recipe.title %>
-</p>
+<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/show.css">
 
-<p>
-  <strong>Author: </strong>
-  <%= @recipe.author %>
-</p>
+<div id = "page-container">
+  <header id = "title">
+    <%= @recipe.title %>
+  </header>
 
-<p>
-  <strong> Note: </strong>
-  <%= @recipe.note  %>
-</p>
+  <div id = "content-wrap">
+    <p class = "label">
+      <strong>Author: </strong>
+      <%= @recipe.author %>
+    </p>
+
+    <p  class = "label">
+      <strong> Note: </strong>
+      <%= @recipe.note  %>
+    </p>
 
 
-<table>
-  <h2>Ingredients</h2>
-  <tr>
-  <th>Name</th>
-  <th>Amount</th>
-  <th>UOM</th>
-  </tr>
+    <table>
+      <h2 class = "label">Ingredients</h2>
+      <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>UOM</th>
+      </tr>
 
-<% @recipe.ingredients.each do |ingredient| %>
-    <tr>
-      <td><%= ingredient.name %></td>
-      <td><%= ingredient.amount  %></td>
-      <td><%= ingredient.uom %></td>
-    </tr>
+      <% @recipe.ingredients.each do |ingredient| %>
+        <tr>
+          <td><%= ingredient.name %></td>
+          <td><%= ingredient.amount  %></td>
+          <td><%= ingredient.uom %></td>
+        </tr>
 
-<% end %>
+      <% end %>
 
-</table>
+    </table>
+  </div>
+  <%= link_to '<button type="button">Edit</button>'.html_safe, edit_recipe_path %>
+  <%= link_to '<button type="button">Back</button>'.html_safe, recipes_path %>
+  <footer id = "footer">Team Eggplantbert: Alex Eby, Tristin Colenso, Ethan Large, Roman Formicola</footer>
+</div>
 
-</br>
 
-<%= link_to 'Edit', edit_recipe_path(@recipe) %>
-<%= link_to 'Back', recipes_path %>
