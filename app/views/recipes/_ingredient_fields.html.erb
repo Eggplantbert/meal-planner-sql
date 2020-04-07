@@ -1,20 +1,18 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/ingredient_form.css">
 
-<p class = "input_field">
-  <%= form.label :name, "name" %><br>
+<p>
+  <%= form.label :name, "Name" %>
   <%= form.text_field :name %>
-</p>
-<p class = "input_field">
-  <%= form.label :amount, "amount" %><br>
+
+  <%= form.label :amount, "Amount" %>
   <%= form.number_field :amount %>
-</p>
-<p class = "input_field">
-  <%= form.label :uom, "UOM" %><br>
+
+  <%= form.label :uom, "UOM" %>
   <%= form.text_field :uom %>
+
+  <%= form.label :_destroy, "Remove" %>
+  <%= form.check_box :_destroy %>
 </p>
-<p class = "input_field">
-  <%= form.submit %>
-</p> </br>
 
 
 

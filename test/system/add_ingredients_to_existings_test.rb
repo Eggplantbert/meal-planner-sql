@@ -1,6 +1,6 @@
 require "application_system_test_case"
 
-class AddIngredientsToExistingsTest < ApplicationSystemTestCase
+class AddIngredientsToExistingTest < ApplicationSystemTestCase
   test "add ingredient to existing recipe" do
     visit recipes_url
 
