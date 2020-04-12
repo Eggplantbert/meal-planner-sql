@@ -1,19 +1,9 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/ingredient_form.css">
-
-<p>
-  <%= form.label :name, "Name" %>
-  <%= form.text_field :name %>
-
-  <%= form.label :amount, "Amount" %>
-  <%= form.number_field :amount %>
-
-  <%= form.label :uom, "UOM" %>
-  <%= form.text_field :uom %>
-
-  <%= form.label :_destroy, "Remove" %>
-  <%= form.check_box :_destroy %>
-</p>
-
+<tr class="nested-fields">
+  <td><%= f.input :name, label: false %></td>
+  <td><%= f.input :amount, label: false %></td>
+  <td><%= f.input :uom, label: false, as: :string %></td>
+</tr>
 
 
 

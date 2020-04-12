@@ -1,12 +1,14 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/form.css">
-
+<link rel="stylesheet" type="text/css" href="app/assets/stylesheets/edit.scss">
 <div id = "page-container">
-  <header id = "header"> Edit Recipe </header>
+  <header id = "title">
+    <%= @recipe.title %>
+  </header>
 
   <div id = "content-wrap">
     <%= render 'form' %>
   </div>
 
-  <%= link_to '<button type="button">Back</button>'.html_safe, recipes_path %>
+  <%= link_to '<button type="button">Done</button>'.html_safe, recipes_path %>
   <footer id = "footer">Team Eggplantbert: Alex Eby, Tristin Colenso, Ethan Large, Roman Formicola</footer>
 </div>

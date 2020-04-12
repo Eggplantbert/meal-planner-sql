@@ -1,43 +1,55 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/form.css">
-<div id = "form">
-  <%= form_for(@recipe) do |form| %>
-    <% if @recipe.errors.any? %>
-      <div id = "error_explanation">
-        <h2>
-          <%= pluralize(@recipe.errors.count, "error") %>
-          prohibited this recipe from being saved:
-        </h2>
-        <ul>
-          <%@recipe.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
-
-    <p>
-      <%= form.label :title  %><br>
-      <%= form.text_field :title %>
-    </p>
-
-    <p>
-      <%= form.label :author  %><br>
-      <%= form.text_field :author %>
-    </p>
-
-    <p>
-      <%= form.label :note %><br>
-      <%= form.text_area :note %>
-    </p>
-    <h2 id = "add">Add an Ingredient: </h2>
-    <%= form.fields_for :ingredients do |builder| %>
-      <%= render 'ingredient_fields', form: builder %>
-    <% end %>
-
-    <%= link_to_add_fields "Add Ingredient", form, :ingredients %>
-    <p>
-      <%= form.submit %>
-    </p>
-
+<%= simple_form_for(@recipe) do |f| %>
+  <% if @recipe.errors.any? %>
+    <div id = "error_explanation">
+      <h2>
+        <%= pluralize(@recipe.errors.count, "error") %>
+        prohibited this recipe from being saved:
+      </h2>
+      <ul>
+        <%@recipe.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
   <% end %>
-</div>
+
+  <div>
+    <p>
+      <%= f.label 'Title: ', required: false %> </br>
+      <%= f.input_field :title, required: false %>
+    </p>
+
+    <p>
+      <%= f.label 'Author: ', required: false %> </br>
+      <%= f.input_field :author, required: false %>
+    </p>
+
+    <p>
+      <%= f.label 'Note: ', required: false %> </br>
+      <%= f.input_field  :note, required: false %>
+    </p>
+  </div>
+
+
+  <h2 id = "add"> Add an Ingredient: </h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>UOM</th>
+      </tr>
+    </thead>
+    <tbody class='ingredients'>
+      <%= f.simple_fields_for :ingredients do |builder| %>
+        <%= render 'ingredient_fields', f: builder %>
+      <% end  %>
+    </tbody>
+  </table>
+  <div class="form-actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
+
