@@ -1,0 +1,18 @@
+<%= form_with(model: @recipe, url: recipes_path) do |f| %>
+  Ingredients:
+  <ul>
+    <%= f.fields_for :ingredients do |ingredients_form| %>
+      <li>
+        <%= ingredients_form.label :name, "Name" %>
+        <%= ingredients_form.text_field :name %>
+
+        <%= ingredients_form.label :amount, "Amount" %>
+        <%= ingredients_form.number_field :amount %>
+
+        <%= ingredients_form.label :uom, "UOM" %>
+        <%= ingredients_form.text_field :uom %>
+
+      </li>
+    <% end %>
+  </ul>
+<% end %>
