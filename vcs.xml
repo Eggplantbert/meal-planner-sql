@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/Eggplantbert/meal-planner-sql.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Eggplantbert/meal-planner-sql/commit/fa0216b9cb3351b36846f12ca67ed68606e72417" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\rocks\RubymineProjects" />
