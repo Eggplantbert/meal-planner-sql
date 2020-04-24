@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  amount: 1
-  uom: MyString
+apple:
+  name: Apple
+  amount: 5
+  uom: Fruit
+  recipe: apple_pie
 
-two:
-  name: MyString
+crust:
+  name: Pie Crust
   amount: 1
-  uom: MyString
+  uom: Box
+  recipe: apple_pie

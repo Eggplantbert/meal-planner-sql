@@ -1,11 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  author: MyString
-  note: MyText
-
-two:
-  title: MyString
-  author: MyString
-  note: MyText
+apple_pie:
+  title: Apple Pie
+  author: Alex
+  note: Use a sweet and tart apple variety!
