@@ -1,13 +1,55 @@
+<!DOCTYPE html>
+<html>
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/home.scss">
+
 <div id = "page-container">
   <div class = "header">
     <h2> Meal Planner</h2>
   </div>
   <div id = "content-wrap">
-    </br>
-    <%= link_to '<button type="button">See Recipes </button>'.html_safe, controller: 'recipes' %>
-    </br>
+    <div id = "left">
+      <fieldset id = "pantry">
+        <h2>Your Pantry:</h2>
+        <input class='btn' type="button" id = 'add_btn' onclick="newForm()" value="Add"><br>
+        <form id = "ingredient_0">
+          <fieldset id="item_box">
+            Name: <input type="text" name="iname">
+            Amount: <input type="text" name="iamount"><br>
+            UOM: <input type = "text" name="iuom">
+            <input class='btn' type="button" id = "0" onclick="removeForm(this.id)" value="delete">
+          </fieldset>
+        </form>
+      </fieldset><br>
+      <input class='btn' type="button" id = 'search_btn' value="Find Recipes"><br>
+    </div>
+
+
+    <fieldset id = "recipes">
+      <h2>Recipes</h2><br>
+      <p>Add ingredients to search for recipes you can make!</p>
+      <%= link_to '<button class="btn" type="button">See All Recipes </button>'.html_safe, controller: 'recipes' %>
+    </fieldset>
   </div>
+
   <footer id = "footer">Team Eggplantbert: Alex Eby, Tristin Colenso, Ethan Large, Roman Formicola</footer>
 </div>
+</html>
 
+<script>
+    var ing_total = 0;
+    function newForm() {
+        var old_id = ing_total.toString();
+        ing_total++;
+        var div = document.createElement('div');
+        div.setAttribute('id', 'ingredient_' + ing_total);
+        div.innerHTML = document.getElementById('ingredient_0').innerHTML;
+
+        //var r_btn = div.getElementById(old_id);
+        //r_btn.setAttribute('id', ing_total.toString());
+
+        document.getElementById('pantry').appendChild(div);
+    }
+    function removeForm(clicked_id) {
+      alert(clicked_id);
+    }
+</script>

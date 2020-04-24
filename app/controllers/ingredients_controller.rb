@@ -1,9 +1,13 @@
 class IngredientsController < ApplicationController
 
+  def new
+    @ingredient = Ingredient.new
+  end
+
   def create
     @recipe = Recipe.find(params[:recipe_id])
     @ingredient = @recipe.ingredients.create(ingredient_params)
-    redirect_to new_recipe_path(@recipe)
+    redirect_to edit_recipe_path(@recipe)
   end
 
   def destroy

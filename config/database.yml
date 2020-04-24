@@ -13,13 +13,13 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: 51ef453i!
-  host: localhost
+  username:
+  password:
+  host: classdb.it.mtu.edu
 
 development:
   <<: *default
-  database: meal_planner
+  database: trcolens
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
