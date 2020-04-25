@@ -6,12 +6,16 @@
   <div class = "header">
     <h2> Meal Planner</h2>
   </div>
+
   <div id = "content-wrap">
     <div id = "left">
       <fieldset id = "pantry">
+
         <h2>Your Pantry:</h2>
         <input class='btn' type="button" id = 'add_btn' onclick="newForm()" value="Add"><br>
+
         <form id = "ingredient_0">
+
           <fieldset id="item_box">
             Name: <input type="text" name="iname">
             Amount: <input type="text" name="iamount"><br>
@@ -19,14 +23,17 @@
             <input class='btn' type="button" id = "0" onclick="removeForm(this.id)" value="delete">
           </fieldset>
         </form>
-      </fieldset><br>
-      <input class='btn' type="button" id = 'search_btn' value="Find Recipes"><br>
-    </div>
 
+      </fieldset><br>
+
+      <form method="post">
+        <input type="button" name="search" id="search_btn" value="Find Recipes"/><br>
+      </form>
+
+    </div>
 
     <fieldset id = "recipes">
       <h2>Recipes</h2><br>
-      <p>Add ingredients to search for recipes you can make!</p>
       <%= link_to '<button class="btn" type="button">See All Recipes </button>'.html_safe, controller: 'recipes' %>
     </fieldset>
   </div>
@@ -52,4 +59,5 @@
     function removeForm(clicked_id) {
       alert(clicked_id);
     }
+
 </script>

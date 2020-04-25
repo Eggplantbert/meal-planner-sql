@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/recipes.scss">
 
 <div id = "page-container">
+  <div class = 'header'>
+    Listing Recipes
+  </div>
   <div id = "content-wrap">
-    <div class = 'header'>
-      Listing Recipes
-    </div>
 
     <%= link_to '<button type="button">Home</button>'.html_safe, home_index_path %>
 
@@ -28,12 +28,10 @@
         </tr>
       <% end %>
     </table>
-
+    </br>
+    <%= link_to '<button type="button">New Recipe</button>'.html_safe, new_recipe_path %>
+    </br>
   </div>
-
-  </br>
-  <%= link_to '<button type="button">New Recipe</button>'.html_safe, new_recipe_path %>
-  </br>
 
   <footer id = "footer">Team Eggplantbert: Alex Eby, Tristin Colenso, Ethan Large, Roman Formicola</footer>
 </div>
