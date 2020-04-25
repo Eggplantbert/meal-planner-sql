@@ -1,0 +1,16 @@
+
+<%= form_with do |form| %>
+  <%= form.label :name, "Name" %>
+  <%= form.text_field :name %>
+
+  <%= form.label :amount, "Amount" %>
+  <%= form.number_field :amount %> </br>
+
+  <%= form.label :uom, "UOM" %>
+  <%= form.text_field :uom %>  </br>
+
+  <%= form.label :_destroy, "Remove" %>
+  <%= form.check_box :_destroy %>
+  <%= form.submit %>
+<% end %>
+
