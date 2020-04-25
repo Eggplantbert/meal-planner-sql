@@ -1,12 +1,6 @@
 require "application_system_test_case"
 
 class RecipesTest < ApplicationSystemTestCase
-  test "visiting the index" do
-    visit recipes_url
-  
-    assert_selector "h1", text: "Listing Recipes"
-  end
-
   test "creating a recipe" do
     visit recipes_url
 

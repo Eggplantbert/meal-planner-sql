@@ -6,12 +6,12 @@ class AddIngredientsTest < ApplicationSystemTestCase
 
     click_on "New Recipe"
 
-    fill_in "Title", with: "Apple Pie"
-    fill_in "Author", with: "test"
+    fill_in "Title", with: "System Test"
+    fill_in "Author", with: "sys"
 
-    fill_in "Name", with: "Apple"
-    fill_in "Amount", with: 3
-    fill_in "Uom", with: "Apples"
+    fill_in "Name", with: "rb code"
+    fill_in "Amount", with: 24
+    fill_in "Uom", with: "Lines"
 
     click_on "Create Recipe"
 
